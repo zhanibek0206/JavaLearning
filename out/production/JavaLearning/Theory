@@ -1,0 +1,58 @@
+LANGUAGE FUNDAMENTALS
+
+1. Identifiers
+
+# Name in Java Programming Language called Identifier. Identifier can be "variable name", "method name" or "class name".
+
+Sample code:
+
+    public class Test {
+        public static void main(String [] args) {
+            int x = 10;
+        }
+    }
+
+In this code 5 identifiers:
+    1 - Test(name of class),
+    2 - main(name of method),
+    3 - String(name of class),
+    4 - args(name of array),
+    5- x(name of variable).
+
+2. Rules for Identifiers
+
+First Rule: As an identifier in Java, can use names that contains following characters: 'A to Z' or 'a to z', '0 to 9', $(dollar), _(underscore character).
+
+If we're using another characters, then we'll get Compile Time Error(CE).
+
+Example:
+
+total_number - valid
+total# - not valid.
+
+Second Rule: Identifier should not start with number
+
+Example:
+
+total123 - valid
+123total - not valid.
+
+
+3. Third Rule: Java is a Case Sensitive Language. This means that Java distinguishes(различиает) uppercase and lowercase letters in identifiers.
+
+For example:
+
+    class Test {
+        int Number = 10;
+        int number = 10;
+        int NUMBER = 10;
+    }
+
+Number, number and NUMBER are three different identifiers.
+
+4. Fourth Rule. We can't use reserved words as identifiers
+
+Example:
+
+    int x = 10; - Valid
+    int if = 10; - Invalid
